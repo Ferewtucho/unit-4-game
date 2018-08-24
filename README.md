@@ -2,7 +2,7 @@
 
 When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
 
-<img src="images/screen-shot.png"width="400p"height="300">
+<img src="assets/images/screen-shot.png" width="400p" height="300">
 
 The player must then defeat all of the remaining fighters. Enemies should be moved to a different area of the screen.
 
