@@ -4,7 +4,7 @@ This game is created by using Javascript, JQuery, HTML & CSS
 
 When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
 
-<img src = "images/screen-shot.png" width = "500" height = "350">
+<img src = "assets/images/screen-shot.png" width = "500" height = "350">
 
 The player must then defeat all of the remaining fighters. Enemies should be moved to a different area of the screen.
 
