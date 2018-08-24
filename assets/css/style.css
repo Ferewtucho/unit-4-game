@@ -1,0 +1,102 @@
+body {
+    background: url("../images/star-army-star-wars-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+}
+.blendin {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.jumbotron {
+    padding: 0.5em 0.6em;
+    margin: 1.0em 0.0em 1.0em 0.0em;
+    opacity: 0.7;
+}
+
+.jumbotron h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 4em;
+    color: yellow;
+}
+
+.jumbotron h2 {
+    font-family: 'Geostar', monospace;
+    font-size: 2em;
+    color: yellow;
+}
+
+p {
+    font-family: 'Press Start 2P', monospace;
+    color: yellow;
+}
+
+.character-image {
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 2px 0px 2px;
+    border: none;
+    border-color: black;
+}
+
+.character-image p {
+    text-align: center;
+    margin: 0px 2px 0px 2px;
+}
+
+#chosen-character {
+    height: 300px;
+}
+
+#characters-available{
+    margin-top: 20px;
+}
+
+#chosen-character h2 {
+    font-family: 'Geostar', monospace;
+    font-size: 2em;
+    color: yellow;
+}
+
+#enemies-available h2 {
+    font-family: 'Geostar', monospace;
+    margin-top: 20px;
+    font-size: 2em;
+    color: yellow;
+}
+
+.enemy-character {
+    border-color: #48f0dd;
+    background-color: #f0485b;
+    margin: 0px 2px 0px 2px;
+}
+
+#fight-section h2{
+    font-family: 'Geostar', monospace;
+    font-size: 2em;
+    color: yellow;
+}
+
+#defender-section {
+    height: 300px;
+}
+
+#defender-section h2 {
+    font-family: 'Geostar', monospace;
+    font-size: 2em;
+    color: yellow;
+}
+
+.defender-character p {
+    border-color: #485bf0;
+    background-color: #f0dd48;
+    color: black;
+}
+
+#game-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:  yellow;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars Game</title>
+
+    <!-- Link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+    <!-- Link to the Bootstrap library -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Geostar" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- //link to additional css// -->
+
+</head>
+
+<body>
+
+    <!-- Overall Bootstrap grid -->
+
+    <div class="container">
+
+        <!-- Jumbotron with title -->
+
+        <div class="jumbotron blendin">
+
+            <h1 class="text-center">Star War RPG</h1>
+
+            <h2 class="text-center">Choose Your favorite Character</h2>
+
+        </div> <!-- End Jumbotron -->
+
+        <!-- Contents of the game-->
+
+        <div class="row">
+
+            <!-- Available characters -->
+
+            <div class="col-lg-12" id="characters-available">
+
+                <span class="character-image available-character" id="master-joda-character">
+
+                    <img src="assets/images/masterJoda.jpg" alt="Master Joda Character" id="master-joda-image" style="width: 210px ; height: 200px">
+
+                    <p>Master Joda</p>
+
+                    <p class="health">120</p>
+
+                </span>
+
+                <span class="character-image available-character" id="luke-skywalker-character">
+
+
+                    <img src="assets/images/luke.jpg" alt="Luke Skywalker Character" id="luke-skywalker-image" style="width: 210px ; height: 200px">
+
+                    <p>Luke Skywalker</p>
+
+                    <p class="health">100</p>
+
+                </span>
+
+                <span class="character-image available-character" id="kilo-ren-character">
+
+                    <img src="assets/images/kylo-ren-mask.png" alt="Kilo Ren Character" id="Kilo-Ren-image" style="width: 210px; height: 200px">
+
+                    <p>Kilo Ren</p>
+
+                    <p class="health">150</p>
+
+                </span>
+
+                <span class="character-image available-character" id="darth-maul-character">
+
+                    <img src="assets/images/darth-maul.jpg" alt="Darth Maul Character" id="darth-maul-image" style="width: 210px ; height: 200px">
+
+                    <p>Darth Maul</p>
+
+                    <p class="health">180</p>
+
+                </span>
+
+            </div> <!-- End available characters -->
+
+            <!-- Your chosen character -->
+
+            <div class="col-lg-4" id="chosen-character">
+
+                <h2>Your Character</h2>
+
+            </div> <!-- End your chosen character-->
+
+            <!-- Fight section -->
+
+            <div class="col-lg-4" id="fight-section">
+
+                <h2>Fight Section</h2>
+
+                <button id="attack" style=" font-family: 'Geostar', monospace; color: yellow; background-color:black"><img
+                        src="assets/images/attack.png" alt="attack" style="width: 210px ; height: 200px"><P>Attack</P></button>
+
+            </div> <!-- End fight section -->
+
+
+            <!-- Defender section -->
+
+            <div class="col-lg-4" id="defender-section">
+
+                <h2>Defender</h2>
+
+            </div> <!-- End defender section -->
+
+            <!-- Game message section -->
+
+            <div class="col-lg-6" id="message-section">
+
+                <div id="game-message"></div>
+
+                <button id="restart" style=" font-family: 'Geostar', monospace; color: yellow; background-color:black">Restart</button>
+
+            </div> <!-- Game message section -->
+
+
+
+
+
+            <!-- Enemies available to attack -->
+
+            <div class="col-lg-12" id="enemies-available">
+
+                <h2>Enemies Available To Attack</h2>
+
+            </div> <!-- End enemies available to attack -->
+
+
+
+        </div> <!-- End contents of the game -->
+
+    </div> <!-- End Bootstrap grid -->
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
