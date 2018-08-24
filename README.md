@@ -17,7 +17,7 @@ The player will now be able to click the attack button picture.
 <li>Whenever the player clicks attack, their character damages the defender. The opponent will lose HP (health points). These points are displayed at the bottom of the defender's picture.</li>
 
 <li>The opponent character will instantly counter the attack. When that happens, the player's character will lose some of their HP. These points are shown at the bottom of the player character's picture.</li>
-
+</ul>
 The player will keep hitting the attack button in an effort to defeat their opponent.
 
 When the defender's HP is reduced to zero or below, remove the enemy from the defender area. The player character can now choose a new opponent.
@@ -31,15 +31,15 @@ Each character in the game has 3 attributes: Health Points, Attack Power and Cou
 Each time the player attacks, their character's Attack Power increases by its base Attack Power. 
 
 The enemy character only has Counter Attack Power. 
-
-Unlike the player's Attack Points, Counter Attack Power never changes.
-
+<ul>
+  <li>Unlike the player's Attack Points, Counter Attack Power never changes.</li>
+</ul>
 The Health Points, Attack Power and Counter Attack Power of each character is differ.
 
 No characters in the game can heal or recover Health Points. 
-
-A winning player must pick their characters wisely by first fighting an enemy with low Counter Attack Power. This will allow them to grind Attack Power and to take on enemies before they lose all of their Health Points. Healing options would mess with this dynamic.
-
+<ul>
+<li>A winning player must pick their characters wisely by first fighting an enemy with low Counter Attack Power. This will allow them to grind Attack Power and to take on enemies before they lose all of their Health Points. Healing options would mess with this dynamic.</li>
+</ul>
 Your players should be able to win and lose the game no matter what character they choose. The challenge should come from picking the right enemies, not choosing the strongest player.
 
 
