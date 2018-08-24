@@ -1,6 +1,6 @@
 # unit-4-game
 
-When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
+When the game starts, the player will choose a character by clicking on the character pictures. The player will fight as that character for the rest of the game.
 
 <img src="assets/images/screen-shot.png" width="400p" height="300">
 
