@@ -261,7 +261,7 @@ $(document).ready(function () {
           $("#game-message").append("<p>" + defender.name + " attacked you back for " + defender.baseAttack + " damage.</p>");
         } else {
           gameOver = true;
-          $("#game-message").html("<p>You Lose!! Good Day Sir!!</p><p>Press Restart button to Play agin!!</p></p>");
+          $("#game-message").html("<p>You Lose!! Good Day Sir!!</p><p>Press Restart button to Play again!!</p></p>");
           $("#restart").show();
         }
       } else {
@@ -274,7 +274,7 @@ $(document).ready(function () {
         // Check if the user has won the game
         if (enemiesDefeated === 3) {
           gameOver = true;
-          $("#game-message").html("<p>You Winnnn!!!</p><p>Press Restart button to Play agin!!</p>");
+          $("#game-message").html("<p>You Winnnn!!!</p><p>Press Restart button to Play again!!</p>");
           $("#restart").show();
         }
       }
