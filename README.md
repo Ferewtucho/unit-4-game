@@ -45,4 +45,6 @@ Your players should be able to win and lose the game no matter what character th
 
 The challenge should come from picking the right enemies, not choosing the strongest player.
 
+<a href = "https://ferewtucho.github.io/unit-4-game/" >Click</a> to try.
+
 
